@@ -1,0 +1,17 @@
+name: Saw
+main: com.pilzbros.Saw.Saw
+version: 1.0
+commands:
+  saw:
+    description: Main user Saw command
+    usage: /saw [play/quit]
+  sawadmin:
+    description: Admin Saw Command
+    usage: /bankadmin
+permissions:
+  saw.admin:
+    description: Admin permissions of Saw
+    default: op
+  saw.user:
+    description: Allows playing Saw
+    default: true
